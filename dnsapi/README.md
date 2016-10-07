@@ -66,7 +66,7 @@ The `CX_Key` and `CX_Secret`  will be saved in `~/.acme.sh/account.conf`, when n
 
 ## Use Godaddy.com domain api to automatically issue cert
 
-We support Godaddy integeration.
+We support Godaddy integration.
 
 First you need to login to your Godaddy account to get your api key and api secret.
 
@@ -88,6 +88,26 @@ acme.sh   --issue   --dns dns_gd   -d aa.com  -d www.aa.com
 ```
 
 The `GD_Key` and `GD_Secret`  will be saved in `~/.acme.sh/account.conf`, when next time you use cloudflare api, it will reuse this key.
+
+## Use Yandex domain api to automatically issue cert
+
+We support Yandex DNS API integration.
+
+First you need to login in your "Yandex PDD" account to deligate your domain and create your api admin PddToken.
+
+https://tech.yandex.ru/pdd/doc/concepts/access-docpage/#access-admin
+
+```
+export YA_Token="123456789ABCDEF0000000000000000000000000000000000000"
+
+```
+
+Ok, let's issue cert now:
+```
+acme.sh   --issue   --dns dns_ya   -d aa.com  -d www.aa.com
+```
+
+The `YA_Token`  will be saved in `~/.acme.sh/account.conf`, when next time you use yandex domain api, it will reuse this key.
 
 ## Use OVH/kimsufi/soyoustart/runabove API
 

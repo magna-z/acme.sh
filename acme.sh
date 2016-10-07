@@ -2778,6 +2778,11 @@ _initconf() {
 #
 #GD_Secret=\"sADDsdasdfsdfdssdgdsf\"
 
+#######################
+#Yandex:
+#api token
+#YA_Token=\"123456789ABCDEF0000000000000000000000000000000000000\"
+
     " > $ACCOUNT_CONF_PATH
   fi
 }

@@ -234,12 +234,13 @@ You don't have do anything manually!
 ### Currently acme.sh supports:
 
 1. Cloudflare.com API
-2. Dnspod.cn API
-3. Cloudxns.com API
-4. Godaddy.com API
-5. OVH, kimsufi, soyoustart and runabove API
-6. AWS Route 53, see: https://github.com/Neilpang/acme.sh/issues/65
-7. lexicon dns api: https://github.com/Neilpang/acme.sh/wiki/How-to-use-lexicon-dns-api
+1. Dnspod.cn API
+1. Cloudxns.com API
+1. Godaddy.com API
+1. Yandex.ru PDD API
+1. OVH, kimsufi, soyoustart and runabove API
+1. AWS Route 53, see: https://github.com/Neilpang/acme.sh/issues/65
+1. lexicon dns api: https://github.com/Neilpang/acme.sh/wiki/How-to-use-lexicon-dns-api
    (DigitalOcean, DNSimple, DnsMadeEasy, DNSPark, EasyDNS, Namesilo, NS1, PointHQ, Rage4 and Vultr etc.)
 
 ##### More APIs are coming soon...
